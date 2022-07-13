@@ -8,7 +8,7 @@ b + 4;
 
 // [] -> listas, arreglos o arrays
 const ar = [1, 2, 3, 4]
-console.log(ar[2])
+console.log(ar[2]) // acceder al valor dentro del array
 
 // () -> Funciones
 function suma(a, b) {
