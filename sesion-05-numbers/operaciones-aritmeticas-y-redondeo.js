@@ -25,7 +25,7 @@ let d = c * 3;
 console.log(d);
 console.log(typeof d);
 
-// .toFixed(x) - Limitar el número de decimales al valor x
+// .toFixed(x) - Limitar el número de decimales al valor x, pero lo convierte en string.
 console.log(d.toFixed(4));
 console.log(typeof d.toFixed(4));
 
@@ -34,7 +34,7 @@ let f = 2213556153215;
 console.log(e.toFixed(2));
 console.log(f.toFixed(2));
 
-// .toPrecision(x) - Limita el número de cifras significativas
+// .toPrecision(x) - Limita el número de cifras significativas. Tembién devuelve un string.
 console.log(e.toPrecision(7));
 console.log(f.toPrecision(7));
 
