@@ -1,4 +1,4 @@
-const lista = ['ernesto', 36, false, 08 - 09 - 1985, {
+const lista = ['ernesto', 36, false, new Date('08/09/1985'), {
   titulo: 'La biblia de los caídos',
   autor: 'Fernando Trujillo Sanz',
   fecha: 2014,
