@@ -6,7 +6,7 @@ console.log(compras);
 let quitar = compras.pop();
 console.log(compras);
 
-let peliculas = [{titulo: 'Bloodsport', director: 'Newt Arnold', fecha: new Date('02,26,1988')}, 
+let peliculas = [{titulo: 'Bloodsport', director: 'Newt Arnold', fecha: new Date('02/26/1988')}, 
 {titulo: 'clash of the titans', director: 'Louis Leterrier', fecha: new Date('04/01/2010')}, 
 {titulo: 'Enemy at the gates', director: 'Jean-Jaques Annaud', fecha: new Date('04/11/2001') }];
 
