@@ -1,7 +1,9 @@
 .seccion {
+    float: left;
     background-color: darkslategrey;
     padding: 1rem;
     margin: 1rem;
+    width: 50%;
 }
 
 .parrafo {
@@ -19,4 +21,14 @@
     background-color: white;
     position: absolute;
     left: -100vw;
+}
+
+.waste {
+    display: flexbox;
+    float: right;
+    width: 40%;
+}
+
+.waste .parrafo {
+    display: none;
 }
